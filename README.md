@@ -1,0 +1,3 @@
+This repository demonstrates a common issue encountered when using React Router DOM v6.  The problem involves unexpected behavior when navigating between routes. The application appears to render correctly, but clicking the navigation links does not change the route as expected. The console does not show any errors which makes it difficult to debug.
+
+The `bug.js` file contains the problematic code, which omits necessary import statements leading to the unexpected behavior.  The `bugSolution.js` provides the corrected code with the missing imports added.
